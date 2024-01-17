@@ -1,4 +1,4 @@
-# Financial Text Classification
+# Text Classification (NLP)
 
 The project focuses on text classification, specifically geared towards **categorising** financial news articles. The primary goal is to develop classifiers using the **Naive Bayes algorithm**, **Logistic Regression**, and **Random Forest** for predicting the category of financial news, leveraging a dataset sourced from the Reuters corpus. The dataset covers various categories, such as earnings ('earn'), acquisitions ('acq'), and natural gas ('nat-gas'). The implementation includes the following key steps:
 
