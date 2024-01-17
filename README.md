@@ -1,6 +1,6 @@
 # Financial Text Classification
 
-The project involves text classification, specifically focusing on financial news categorization. The primary objective is to build a classifier using the Naive Bayes algorithm to predict the category of financial news articles. The dataset used for training and testing is sourced from the Reuters corpus, encompassing categories such as earnings ('earn'), acquisitions ('acq'), and natural gas ('nat-gas'). The implementation includes the following key steps:
+The project focuses on text classification, specifically geared towards **categorising** financial news articles. The primary goal is to develop classifiers using the **Naive Bayes algorithm**, **Logistic Regression**, and **Random Forest** for predicting the category of financial news, leveraging a dataset sourced from the Reuters corpus. The dataset covers various categories, such as earnings ('earn'), acquisitions ('acq'), and natural gas ('nat-gas'). The implementation includes the following key steps:
 
 1. Data Retrieval and Exploration:
 
@@ -17,14 +17,14 @@ The project involves text classification, specifically focusing on financial new
 
 * Separating the dataset into training and testing sets using the train_test_split function.
 
-4. Text Vectorization:
+4. Text Vectorisation:
 
-* Utilizing the CountVectorizer to convert the raw text data into numerical feature vectors.
-* Vectorizing both the training and testing datasets.
+* Utilising the CountVectoriser to convert the raw text data into numerical feature vectors.
+* Vectorising both the training and testing datasets.
   
 5. Model Training:
 
-* Implementing a Multinomial Naive Bayes classifier for training on the vectorized training data.
+* Implementing a Multinomial Naive Bayes classifier for training on the vectorised training data.
 
 6. Model Evaluation:
 
@@ -35,7 +35,7 @@ The project involves text classification, specifically focusing on financial new
 7. Prediction on New Articles:
 
 * Providing sample news articles for prediction, including examples of earnings, acquisitions, and a generic test article.
-* Vectorizing the new articles and predicting their categories using the trained classifier.
+* Vectorising the new articles and predicting their categories using the trained classifier.
 * Displaying the predicted labels for each article.
 
-The project emphasizes the application of machine learning techniques for classifying financial news articles into relevant categories, showcasing the implementation and evaluation process using the Naive Bayes algorithm and the Reuters dataset.
+The project emphasises the application of machine learning techniques for classifying financial news articles into relevant categories, showcasing the implementation and evaluation process using the Naive Bayes algorithm and the Reuters dataset.
